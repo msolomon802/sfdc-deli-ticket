@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deli Ticket</fullName>
+    <types>
+        <members>Deli_Ticket__c.Active_AE__c</members>
+        <members>Deli_Ticket__c.Last_Ticket_Punched__c</members>
+        <members>Deli_Ticket__c.Next_Up__c</members>
+        <members>Deli_Ticket__c.Ticket_Number__c</members>
+        <members>Deli_Ticket__c.User__c</members>
+        <members>Lead.Assign_AE_Checkbox__c</members>
+        <members>Lead.Assigned_AE__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Deli_Ticket__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Assign_AE_via_Deli_Ticket_Process_Builder</members>
+        <members>Assign_AE_via_deli_ticket</members>
+        <name>Flow</name>
+    </types>
+    <version>44.0</version>
+</Package>
